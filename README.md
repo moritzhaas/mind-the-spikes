@@ -1,6 +1,6 @@
 # Mind the Spikes: Benign overfitting of kernels and neural networks in fixed dimension
 
-This repository accompanies the submitted preprint 'Mind the Spikes: Benign overfitting of kernels and neural networks in fixed dimension'.
+This repository accompanies the preprint 'Mind the Spikes: Benign overfitting of kernels and neural networks in fixed dimension'.
 
 ## Installation
 
@@ -26,6 +26,8 @@ In the python scripts, adjust the paths where summary statistics are saved to yo
 
 ## Overview
 
+Precomputed files are provided in `outputs/`. All of these files can be recomputed with the provided Python scripts.
+
 ### Figure 1
 
 Run `train_spikysmooth_nns.py`
@@ -46,10 +48,10 @@ Once all activation function coefficients and values of interest are precomputed
 
 For disentangling signal from noise with kernels or in neural networks with spiky-smooth activation functions: `train_spikysmooth_nns.py`
 
+For repeating the finite-sample experiments of Figure 1: `train_spikysmooth_nns.py`
+
 For plotting spiky-smooth or isolated spike activation functions:` plot_activations.py`
 
 For evaluating the approximation quality of the additive decomposition or the sin-fits Eq. (7) and Eq. (8): `sinfit.py`
-
-For repeating the finite-sample experiments of Figure 1: `train_spikysmooth_nns.py`
 
 For evaluating spiky-smooth kernels on finite datasets with various hyperparameter choices: `kernel_regression_spikysmooth.py`
