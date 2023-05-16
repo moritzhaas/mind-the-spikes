@@ -1,6 +1,8 @@
 # Mind the Spikes: Benign overfitting of kernels and neural networks in fixed dimension
 
-This repository accompanies the preprint 'Mind the Spikes: Benign overfitting of kernels and neural networks in fixed dimension'.
+This repository accompanies the preprint 'Mind the Spikes: Benign overfitting of kernels and neural networks in fixed dimension'. The experiments investigate how to adapt neural network activation functions to enable benign overfitting in arbitrary dimension. For this purpose we investigate a sequence of kernels we call 'spiky-smooth kernels' and compute the corresponding activation functions, when writing this kernel sequence as an NTK or a neural network Gaussian process kernel.
+
+Do not hesitate to reach out, if you have questions or comments.
 
 ## Installation
 
