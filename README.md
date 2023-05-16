@@ -57,3 +57,9 @@ For plotting spiky-smooth or isolated spike activation functions:` plot_activati
 For evaluating the approximation quality of the additive decomposition or the sin-fits Eq. (7) and Eq. (8): `sinfit.py`
 
 For evaluating spiky-smooth kernels on finite datasets with various hyperparameter choices: `kernel_regression_spikysmooth.py`
+
+## Citation
+
+If you use this software please cite the following publication:
+
+COMING SOON...
