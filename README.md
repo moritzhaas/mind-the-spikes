@@ -62,4 +62,13 @@ For evaluating spiky-smooth kernels on finite datasets with various hyperparamet
 
 If you use this software please cite the following publication:
 
-COMING SOON...
+```bib
+@misc{mindthespikes,
+      title={Mind the spikes: Benign overfitting of kernels and neural networks in fixed dimension}, 
+      author={Moritz Haas and David Holzmüller and Ulrike von Luxburg and Ingo Steinwart},
+      year={2023},
+      eprint={2305.14077},
+      archivePrefix={arXiv},
+      primaryClass={stat.ML}
+}
+```
