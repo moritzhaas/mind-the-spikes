@@ -1,7 +1,7 @@
 # Mind the Spikes: Benign overfitting of kernels and neural networks in fixed dimension
 
 <p align="center">
-  <img src="benignoverfitting_kernels_nns_lowdimension.png" width="800" alt="Benign overfitting with kernels and neural networks in low dimension"/>
+  <img src="benignoverfitting_kernels_nns_lowdimension.png" width="1000" alt="Benign overfitting with kernels and neural networks in low dimension"/>
 </p>
 
 This repository accompanies the preprint ['Mind the Spikes: Benign overfitting of kernels and neural networks in fixed dimension'](https://arxiv.org/pdf/2305.14077.pdf).
