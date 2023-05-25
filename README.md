@@ -1,5 +1,9 @@
 # Mind the Spikes: Benign overfitting of kernels and neural networks in fixed dimension
 
+<p align="center">
+  <img src="benignoverfitting_kernels_nns_lowdimension.pdf" width="800" alt="Benign overfitting with kernels and neural networks in low dimension"/>
+</p>
+
 This repository accompanies the preprint ['Mind the Spikes: Benign overfitting of kernels and neural networks in fixed dimension'](https://arxiv.org/pdf/2305.14077.pdf).
 
 The experiments investigate how to adapt neural network activation functions to enable benign overfitting in arbitrary dimension. For this purpose we investigate a sequence of kernels we call 'spiky-smooth kernels' and compute the corresponding activation functions, when writing this kernel sequence as an NTK or a neural network Gaussian process kernel. Remarkably, using Gaussian kernels as spike component approximately translates into adding a small high-frequency oszillation to the activation function. Our experiments indeed show that trained neural networks do not exhibit benign overfitting with the ReLU activation function but that this can be fixed by adding small high-frequency oscillations to the activation function. Using the parameters learned with the spiky-smooth activation function in a ReLU network removes the spikes that are useful for overfitting and yields the learned 'signal component' that overfits less and is more adversarially robust.
