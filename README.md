@@ -36,15 +36,15 @@ In the python scripts, adjust the paths where summary statistics are saved to yo
 
 Precomputed files are provided in `outputs/`. All of these files can be recomputed with the provided Python scripts.
 
-### Figure 1
+### Figure 1: Training spiky-smooth kernels and neural networks with spiky-smooth activation functions as well as disentangling the learned signal from the spikes
 
 Run `train_spikysmooth_nns.py`
 
-### Figure 2
+### Figure 2: Visualizing a spiky-smooth kernel
 
 Run `kernelplot.py`
 
-### Figure 3
+### Figure 3: Calculating and visualizing spiky-smooth activation functions and their Hermite coefficients up to high orders
 
 First run `activation_functions_spikysmooth.py`
 
